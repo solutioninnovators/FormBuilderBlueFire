@@ -15,11 +15,12 @@ class FormBuilderBlueFire extends WireData implements Module, ConfigurableModule
 			'title' => 'Form Builder BlueFire Integration',
 			'author' => 'Mike Spooner (thetuningspoon), Solution Innovators',
 			'version' => 001,
-			'summary' => '',
+			'summary' => 'BlueFire Payment Integration for ProcessWire FormBuilder',
 			'singular' => true,
 			'autoload' => true,
 			'installs' => array(),
 			'requires' => array('FormBuilder'),
+			'icon' => 'money',
 		);
 	}
 
